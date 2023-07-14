@@ -19,9 +19,11 @@
 
 Python scripts used for the production 
 
-1. fits_to_npy_CTA_extent_sel.py: Convert the fits files from ctools simulation to numpy arrays; For every fits files we have 4 numpy arrays for 4 energy bins
-2. classification_DataLoader_CTA_Ext.py: Dataloader module used for preprocessing the numpy arrays to make them suitable for our network. Also includes augmentation for training set.
-3. neural_nets.py: Module to import the network used for our task. 
+1. _**fits_to_npy_CTA_extent_sel.py:**_ Convert the fits files from ctools simulation to numpy arrays; For every fits file we have 4 numpy arrays for 4 energy bins
+
+2. _**classification_DataLoader_CTA_Ext.py:**_ Dataloader module used for preprocessing the numpy arrays to make them suitable for our network. Also includes augmentation for the training set.
+
+3. _**neural_nets.py:**_ Module to import the network used for our task. 
 
 ----------------------------------------------------
 
@@ -29,6 +31,7 @@ Python scripts used for the production
 
 Helping Notebooks to visualize several sections of scripts 
 
-1. read_fits_augment_npy.ipynb: visualize the numpy arrays (source images) after processing the fits files; Also a visualizer for the augmentations used.
-2. Neural-Net-Arch.ipynb: import neural_nets.py and check in detail the network used for analysis.  
+1. _**read_fits_augment_npy.ipynb:**_ visualize the numpy arrays (source images) after processing the fits files; Also a visualizer for the augmentations used.
+
+2. _**Neural-Net-Arch.ipynb:**_ import neural_nets.py and check in detail the network used for analysis.  
  

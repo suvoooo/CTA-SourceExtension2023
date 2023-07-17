@@ -1,5 +1,24 @@
 # CTA-SourceExtension2023
 
+## Neural Net Architecture (Simplified)
+
+![Neural-Net](https://github.com/suvoooo/CTA-SourceExtension2023/blob/main/plots/plot_neural_net_ICRC2023.png-1.png)
+
+----------------------------------------------
+
+
+### Activation Maps from Conv4 Layer for Sources with Different Extensions
+
+#### C0: $0.03 < \sigma < 0.1$
+
+![Activation Maps](https://github.com/suvoooo/CTA-SourceExtension2023/blob/main/plots/check_conv_layers_C0_999_final.png)
+
+#### C0: $0.1 < \sigma < 0.3$
+
+![ActivationsMapsC1](https://github.com/suvoooo/CTA-SourceExtension2023/blob/main/plots/check_conv_layers_C1_999_final.png)
+
+--------------------------------------------
+
 ### Libraries & Versions: 
 
 

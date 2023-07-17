@@ -13,7 +13,7 @@
 
 ![Activation Maps](https://github.com/suvoooo/CTA-SourceExtension2023/blob/main/plots/check_conv_layers_C0_999_final.png)
 
-#### C0: $0.1 < \sigma < 0.3$
+#### C1: $0.1 < \sigma < 0.3$
 
 ![ActivationsMapsC1](https://github.com/suvoooo/CTA-SourceExtension2023/blob/main/plots/check_conv_layers_C1_999_final.png)
 

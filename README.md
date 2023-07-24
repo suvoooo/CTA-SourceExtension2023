@@ -42,7 +42,9 @@ Python scripts used for the production
 
 2. _**classification_DataLoader_CTA_Ext.py:**_ Dataloader module used for preprocessing the numpy arrays to make them suitable for our network. Also includes augmentation for the training set.
 
-3. _**neural_nets.py:**_ Module to import the network used for our task. 
+3. _**neural_nets.py:**_ Module to import the network used for our task.
+
+4. _**train.py:**_ Training script; Train, evaluate (on validation set) and test (on test-set); Plot activation maps from hidden conv layer (for a random test image).  
 
 ----------------------------------------------------
 

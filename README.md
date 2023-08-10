@@ -1,5 +1,20 @@
 # CTA-SourceExtension2023
 
+Corresponding conference proceedings [(ICRC 2023); Nagoya, JP](https://www.icrc2023.org/) is available [here](https://pos.sissa.it/444/599/).
+To cite: 
+
+```
+@inproceedings{Vodeb:2023eS,
+  author = "Vodeb, V  and  Bhattacharyya, S  and  Principe, G  and  Zaharijas, G  and  Ruiz, R  and  Stoppa, F  and  Caron, S  and  Malyshev, D",
+  title = "{Investigating the VHE Gamma-ray Sources Using Deep Neural Networks}",
+  doi = "10.22323/1.444.0599",
+  booktitle = "Proceedings of 38th International Cosmic Ray Conference {\textemdash} PoS(ICRC2023)",
+  year = 2023,
+  volume = "444",
+  pages = "599"
+}
+```
+
 ## Neural Net Architecture (Simplified)
 
 ![Neural-Net](https://github.com/suvoooo/CTA-SourceExtension2023/blob/main/plots/plot_neural_net_ICRC2023.png-1.png)
@@ -37,8 +52,9 @@
 ### scripts:  
 
 Python scripts used for the production 
+0. _**generate_templates_updated.py:**_ Template generation (fits format) including cosmic-ray background and source contributions using `ctools`.  
 
-1. _**fits_to_npy_CTA_extent_sel.py:**_ Convert the fits files from ctools simulation to numpy arrays; For every fits file we have 4 numpy arrays for 4 energy bins
+1. _**fits_to_npy_CTA_extent_sel.py:**_ Convert the fits files from `ctools` simulation to numpy arrays; For every fits file we have 4 numpy arrays for 4 energy bins
 
 2. _**classification_DataLoader_CTA_Ext.py:**_ Dataloader module used for preprocessing the numpy arrays to make them suitable for our network. Also includes augmentation for the training set.
 

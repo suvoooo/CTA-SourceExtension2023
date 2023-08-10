@@ -52,6 +52,7 @@ To cite:
 ### scripts:  
 
 Python scripts used for the production 
+
 0. _**generate_templates_updated.py:**_ Template generation (fits format) including cosmic-ray background and source contributions using `ctools`.  
 
 1. _**fits_to_npy_CTA_extent_sel.py:**_ Convert the fits files from `ctools` simulation to numpy arrays; For every fits file we have 4 numpy arrays for 4 energy bins

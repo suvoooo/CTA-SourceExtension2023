@@ -1,6 +1,6 @@
 # CTA-SourceExtension2023
 
-Corresponding conference proceedings [(ICRC 2023); Nagoya, JP](https://www.icrc2023.org/) is available [here](https://pos.sissa.it/444/599/).
+Corresponding conference proceedings [(ICRC 2023; Nagoya, JP)](https://www.icrc2023.org/) is available [here](https://pos.sissa.it/444/599/).
 To cite: 
 
 ```
